@@ -1,0 +1,135 @@
+header {
+    height: 80px;
+    box-shadow: 1px 4px 4px rgba(0, 0, 0, 0.2);
+}
+
+.header__toggle {
+    width: 80px;
+}
+
+.header__toggle i {
+    line-height: 80px;
+    font-size: 24px;
+    color: rgba(0, 0, 0, 0.7);
+}
+
+.header__logo {
+    width: 200px;
+    color: #fff;
+    background-color: #6063BF;
+}
+
+.header__logo h1 {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.header__logo p {
+    font-size: 13px;
+    letter-spacing: 5px;
+}
+
+header .header__search-input {
+    border: 2px solid rgba(79, 82, 186, 0.3);
+    color: #6164C1;
+    width: 300px;
+}
+
+.header__search-input::placeholder {
+    color: #6164C1;
+}
+
+header .header__search-input:focus,
+header .header__search-input:hover {
+    box-shadow: none;
+    outline: none;
+    color: #6164C1;
+    border-color: rgba(79, 82, 186, 0.3);
+}
+
+.header__notify {
+    height: 80px;
+}
+
+.header__notify-link {
+    padding: 0 30px;
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.7);
+    position: relative;
+}
+
+.header__notify-link.mess {
+    border-left: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.header__notify-link.bell {
+    border-right: 1px solid rgba(0, 0, 0, 0.2);
+    border-left: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.header__notify-link.task {
+    border-right: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.header__notify i {
+    line-height: 80px;
+}
+
+.header__profile-name {
+    font-weight: 700;
+    color: #DD6777;
+}
+
+.header__profile-company {
+    font-size: 13px;
+    font-style: italic;
+    color: rgba(0, 0, 0, 0.7);
+}
+
+.header__profile-icon {
+    color: rgba(0, 0, 0, 0.7);
+}
+
+.dropdown__menu {
+    width: 250px;
+    position: absolute;
+    left: 0;
+    top: 110%;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.hidden {
+    opacity: 0;
+    visibility: hidden;
+}
+
+.appear {
+    opacity: 1;
+    visibility: visible;
+}
+
+.dropdown__header {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    font-size: 13px;
+    font-weight: 700;
+    color: rgba(0, 0, 0, 0.6);
+}
+
+.dropdown__item {
+    margin: 12px 0;
+}
+
+.dropdown__title {
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.dropdown__time {
+    font-size: 12px;
+}
+
+.dropdown__footer {
+    background-color: rgba(200, 129, 230, 0.14);
+    font-size: 14px;
+    font-weight: 500;
+}
